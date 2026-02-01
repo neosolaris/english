@@ -1,13 +1,5 @@
 
-* 00001
-<audio controls>
-  <source src="00001.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+* [00001](00001.mp3)  
 Let me get you another shaker.
-* 00002
-<audio controls>
-  <source src="00002.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+* [00002](00002.mp3)  
 It can cause tooth decay and contributes to obesity.
