@@ -4,8 +4,6 @@
     Your browser does not support the audio element.
 </audio>
 Let me get you another shaker.
-* 00002 <audio controls style="width:120px;">
-  <source src="00002.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+* 00002 <button onclick="document.getElementById('00002').play()">Play</button>
+<audio id="00002" src="00002.mp3"></audio>
 It can cause tooth decay and contributes to obesity.
