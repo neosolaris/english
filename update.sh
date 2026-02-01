@@ -10,7 +10,7 @@ $GTTS
 echo "[ MAKE LIST FILES ]"
 for file in *.txt
 do
-	echo $file >> $OUT
+	echo "* $file" >> $OUT
 	cat $file >> $OUT
 	echo >> $OUT
 done
