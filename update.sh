@@ -15,7 +15,7 @@ do
 	cat<<EOF >>$OUT
 * $fname
 <audio controls>
-  <source src="myfile.mp3" type="audio/mpeg">
+  <source src="${fname}.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 EOF
