@@ -11,10 +11,18 @@ echo "[ MAKE LIST FILES ]"
 echo > $OUT
 for file in *.txt
 do
-	echo "* $file  " >> $OUT
+	fname=`echo $file | sed 's/.txt//'`
+	cat<<EOF >>$OUT
+* $fname
+<audio controls>
+  <source src="myfile.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+EOF
 	cat $file >> $OUT
 done
 
+    
 git add .
 git commit -m "update files" .
 git push
