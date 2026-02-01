@@ -5,5 +5,6 @@
 </audio>
 Let me get you another shaker.
 * 00002 <button onclick="document.getElementById('00002').play()">Play</button>
+<button onclick="document.getElementById('audio1').play()" style="font-size:2em; color:green; background:transparent; border:none; cursor:pointer;">🔉 </button>
 <audio id="00002" src="00002.mp3"></audio>
 It can cause tooth decay and contributes to obesity.
