@@ -8,11 +8,11 @@ echo "[ MAKE TTS FILES ]"
 $GTTS
 
 echo "[ MAKE LIST FILES ]"
+echo > $OUT
 for file in *.txt
 do
-	echo "* $file" >> $OUT
+	echo "* $file  " >> $OUT
 	cat $file >> $OUT
-	echo >> $OUT
 done
 
 git add .
